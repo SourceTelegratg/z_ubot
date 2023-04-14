@@ -190,10 +190,10 @@ class Config(object):
     # extra plugins realted vars below  4
     EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "main")
     OLDZED_REPO = os.environ.get(
-        "OLDZED_REPO", "https://github.com/Zed-Thon/ZED_USERBOT"
+        "OLDZED_REPO", "https://github.com/SourceTelegratg/ZED_USERBOT"
     )
     if OLDZED_REPO and not url(OLDZED_REPO):
-        OLDZED_REPO = "https://github.com/Zed-Thon/ZED_USERBOT"
+        OLDZED_REPO = "https://github.com/SourceTelegratg/ZED_USERBOT"
     OLDZED_REPOBRANCH = os.environ.get("OLDZED_REPOBRANCH", "oldzed")
 
 
